@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #000;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.logo-img {
+    width: 120px;
+}
+
+.user-avatar-img {
+    width: 52px;
+    border-radius: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+li:not(:last-child) {
+    border-bottom: 28px solid #EDEDED;
+}
+
+.user-avatar {
+    width: 34px;
+    border-radius: 100%;
+}
+
+.user {
+    display: flex;
+}
+
+.user-info {
+    margin-left: 10px;
+}
+
+.username {
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.userlocation {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.post-img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.like-cmnt-dm img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 2px 0;
+    margin-right: 5px;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-txt {
+    font-weight: 400;
+}
